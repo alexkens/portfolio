@@ -1,0 +1,35 @@
+.article {
+    padding: 100px 25px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    gap: 100px;
+    flex-wrap: wrap-reverse;
+    
+}
+
+.article img {
+    border-radius: 5px;
+    max-width: 90%
+}
+
+.article img:hover {
+    box-shadow: 1px 1px 6px white;
+}
+
+.article .about-me-container {
+    width: 750px;
+}
+
+.article .about-me-container p {
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 200%;
+}
+
+.article .about-me-container p:hover {
+    box-shadow: 1px 1px 6px white;
+}
+

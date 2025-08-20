@@ -1,0 +1,77 @@
+header {
+    padding: 100px 25px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.header_text {
+    max-width: 70%;
+}
+
+.circle > img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid var(--main-brand-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle > img:hover {
+    box-shadow: 1px 1px 6px white;
+    
+}
+
+nav {
+    margin-bottom: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--secondary-text-color);
+    text-decoration: overline 2px var(--main-brand-color);
+    transition: 0.5s ease-in-out
+}
+
+#toggle-button {
+    display: none;
+}
+
+label[for="toggle-button"] {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: var(--secondary-color);
+        padding: 10px 15px;
+        border-radius: 0 0 15px 0;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+    #toggle-button:checked ~ ul {
+        display: inline;
+    }
+    label[for="toggle-button"] {
+        display: block;
+    }
+}
