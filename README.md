@@ -1,3 +1,3 @@
-#Portfolio Singlepage Application
+# Portfolio Singlepage Application
 
-- Responsive Layout through CSS media queries
+Responsive Layout through CSS media queries
