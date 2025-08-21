@@ -1,6 +1,6 @@
 .article {
     padding: 100px 25px;
-    background-color: pink;
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: center; /* horizontal */
     align-items: center; /* vertical */
