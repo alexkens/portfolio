@@ -40,10 +40,9 @@ h1 > span {
 
 @media (max-width: 800px) {
     h1 {
-        font-size: 50px;
+        font-size: 30px;
         text-align: center;
     }
-
     .subheading {
         text-align: center;
     }
